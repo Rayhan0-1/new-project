@@ -26,9 +26,9 @@ export const Contact = () => {
 <h3>Complain Box</h3>
 <form ref={form} onSubmit={sendEmail}>
   <label>Name</label>
-  <input type="text" name="from_name" placeholder='user email' />
+  <input type="text" name="from_name" placeholder="Enter your name"/>
   <label>Email</label>
-  <input type="email" name="email_name" />
+  <input type="email" name="email_name" placeholder="Enter your email"/>
   <label>Message</label>
   <textarea name="message" />
   <input type="submit" value="Send" />
